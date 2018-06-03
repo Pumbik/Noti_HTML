@@ -3,70 +3,87 @@
 <head>
 	<meta charset="utf-8">
 	<title>Notify</title>
-	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<header>
-		<div class="container header">
-			<div>
-				<h1>Notify<strong>.</strong></h1>
-			</div>
-			<h2>A great new free psd theme to showcase your new application. 
-			</h2>
-			<div class="icon">
-				<a href="#"><img src="img/apple.png"></a>
-			</div>
-			<div class="icon">
-				<a href="#"><img src="img/android.png"></a>
-			</div>
-			<div class="icon">
-				<a href="#"><img src="img/windows.png"></a>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<div class="offer">
+						<img src="img/Notify.png" class="offer__img" alt="logo">
+						<p class="offer__intro">
+							A great new free psd theme to showcase your new application. 
+						</p>
+						<ul class="offer__links d-flex">
+							<li class="offer__links-item offer__links-item_ios"><a href="#" target="_blank"></a></li>
+							<li class="offer__links-item offer__links-item_android"><a href="#" target="_blank"></a></li>
+							<li class="offer__links-item offer__links-item_win"><a href="#" target="_blank"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<img src="img/i-phone.png" alt="" class="iphone">	
+				</div>
 			</div>
 		</div>
 	</header>
 	
-	<section class="features">
+	<section id='trigger'>
 		<div class="container">
-				<div class="feat_item">
-					<img src="img/fea11.png">
-					<h3>Editable Theme</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.
-					</p>
-				</div>
-				<div class="feat_item">
-					<img src="img/fea22.png">
-					<h3>Flat Design</h3>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.
-					</p>
-				</div>
-				<div class="feat_item">
-					<img src="img/fea33.png">
-					<h3>Reach Your Audience</h3>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.
-					</p>
-				</div>
+			<div class="row">	
+					<div class="col">
+						<div class="trigger">
+							<img class="trigger__icon" src="img/fea11.png">
+							<h3 class="trigger__title">Editable Theme</h3>
+							<p class="trigger__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.							</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="trigger">
+							<img class="trigger__icon" src="img/fea22.png">
+							<h3 class="trigger__title">Flat Design</h3>
+							<p class="trigger__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.						</p>
+						</div>
+					</div>
+					<div class="col">
+						<div class="trigger">
+							<img class="trigger__icon" src="img/fea33.png">
+							<h3 class="trigger__title">Reach Your Audience</h3>
+							<p class="trigger__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla.							</p>
+						</div>		
+					</div>
+			</div>		
 		</div>			
 	</section>
 
-	<section class="notify">
+	<section id="notifield">
 		<div class="container">
-			<div id="item_left">
-				<div>
-					<h2>Get Notified Of Any Updates!</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla nisl congue congue. Maecenas nec condimentum libero, at elementum mauris. Phasellus eget nisi dapibus, ultricies nisl at, hendrerit risusuis ornare luctus id sollicitudin ante lobortis at.</p>
+			<div class="row">
+				<div class="col-md-7">
+					<div class="notifield">
+						<h3 class="notifield__title">
+							Get Notified Of Any Updates!
+						</h3>
+						<p class="notifield__text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla nisl congue congue. Maecenas nec condimentum libero, at elementum mauris. Phasellus eget nisi dapibus, ultricies nisl at, hendrerit risusuis ornare luctus id sollicitudin ante lobortis at.
+						</p>
+						<form action="#" class="notifield__form">
+							<input type="text" class="notifield__input" placeholder="Email Address">
+							<button type="submit" class="notifield__act" href="#">
+								Notify
+							</button>
+						</form>
+					</div>
 				</div>
-				<div class="input">
-					<input type="text" name="" placeholder="Email Address">
-					<a class="button" href="#">Notify</a>
+				<div class="col-md-5">		
+					<div class="video">
+						<img src="img/vid.jpg" alt="Video">
+					</div>
 				</div>
 			</div>
-
-			<div class="vid">
-				<img src="img/vid.jpg" alt="Video">
-			</div>
-
 		</div>
 	</section>
 
